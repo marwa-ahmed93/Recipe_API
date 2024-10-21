@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+   <!-- font-awesome Link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- css Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home page</title>
+</head>
+
+<body>
+
+
+
+    <section class="home">
+        <nav  class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div id="navBG"  class="container-fluid fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img class=" w-25" src="./images/restaurant.png" alt="" srcset="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#recipes">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+          
+        </div>
+
+        </nav>
+
+        <div class="caption text-center mt-5">
+      <div>
+        <img class="w-25" src="./images/restaurant.png" alt="" srcset="">
+        <h1>French Restaurant</h1>
+        <p>we `re the best restaurant in twon.</p>
+
+
+        <button type="button" class="btn btn_one  mt-3">Learn More</button>
+        <button type="button" class="btn btn_two  mt-3">Book a Visit</button>
+      </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+<section id="recipes">
+    <div class="container meals mt-5">
+        <div class="row ">
+   <div class="col-md-3 meal">
+    <img class="py-3" src="./images/rigel-food-sec-2-img1-200x200.jpg">
+    <h4>BEEF RECIPES</h4>
+    <div class="line"></div>
+    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at explicabo perspiciatis exercitationem? Reiciendis aspernatur nobis inventore culpa eius quod.</p>
+   </div>
+
+   <div class="col-md-3 meal">
+    <img class="py-3" src="./images/rigel-food-sec-2-img5-200x200.jpg">
+    <h4>PASTA RECIPES</h4>
+    <div class="line"></div>
+    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at explicabo perspiciatis exercitationem? Reiciendis aspernatur nobis inventore culpa eius quod.</p>
+   </div>
+
+   <div class="col-md-3 meal">
+    <img class="py-3" src="./images/rigel-food-sec-2-img3-200x200.jpg">
+    <h4>SALAD RECIPES</h4>
+    <div class="line"></div>
+    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at explicabo perspiciatis exercitationem? Reiciendis aspernatur nobis inventore culpa eius quod.</p>
+   </div>
+
+   <div class="col-md-3 meal">
+    <img class="py-3" src="./images/rigel-food-sec-2-img4-200x200.jpg">
+    <h4>PIZZA RECIPES</h4>
+    <div class="line"></div>
+    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at explicabo perspiciatis exercitationem? Reiciendis aspernatur nobis inventore culpa eius quod.</p>
+   </div>
+        </div>
+
+        <div class="btn-group shadow-lg p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle"
+        role="group" aria-label="Basic outlined example">
+        <input id="searchInput" class="form-control" placeholder="search recipes">
+        <button id="searchBtn" type="button" class="serchButtonY btn btn-warning m-0 ">search</button>
+      </div>
+
+    </div>
+
+
+    <div class="container-fluid text-left">
+        <div class="row" id="recipesDetailsRow">
+    
+          <div class="col-md-8">
+    
+            <div class="row" id="recipesRow">
+    
+        
+    
+              
+           </div>
+    
+            </div>
+    
+            <div id="recipeDetails" class="col-md-4">
+              <!-- recipes details -->
+             
+            </div>
+      
+    
+        
+    
+          </div>
+    
+    
+         <!-- <ul class="fa-ul py-3"> 
+            <li><span class="fa-li font-weight-bolder"><i class="fa-solid fa-spoon"></i></span>1 3/4 (.44 ounce) teaspoons salt</li>
+          </ul> -->
+    
+        </div>
+
+
+
+</section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+</body>
+
+</html>
