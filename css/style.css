@@ -52,3 +52,24 @@ font-size: 230%;
     background-color: gray;
     margin: auto;
 }
+
+.respieImgDiv{
+    width: 300px;
+    height: 300px;
+}
+.respieImgDiv .respieImg{
+    width: 80%;
+    height: 60%;
+    transition: transform 2s;
+}
+.respieImgDiv h3{
+    width: 80%;
+   
+}
+.respieImgDiv h3{
+font-size: 14px;
+}
+.respieImgDiv .respieImg:hover{
+   cursor: pointer;
+   transform: scale(1.1,1.1);
+}

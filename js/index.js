@@ -92,13 +92,18 @@ function displayRecipes() {
      for (let i = 0; i < allRecipes.length; i++) {
           myId = "'"+allRecipes[i].recipe_id+"'";
           carttona += `     
-      <div class="col-md-4">
-            <div class="recipe" onclick="getRecipesDetails(${myId})">
-                       <img class="h-50 w-100" src="${allRecipes[i].image_url}" alt="">
-                       <h3 class="py-1 colorMine">${allRecipes[i].title}</h3>
-                       <p>${allRecipes[i].publisher}</p>
-            </div>
+    
+    <div class="col-md-4 pt-4">
+    <div class="d-flex justify-content-center"> 
+    <div class="recipe" onclick="getRecipesDetails(${myId})">
+         <div class="respieImgDiv">    <img class="respieImg" src="${allRecipes[i].image_url}" alt="">
+          <h3 class="py-1 pt-3 colorMine">${allRecipes[i].title}</h3>
+               <p>${allRecipes[i].publisher}</p>
          </div>
+              
+    </div>
+ </div>
+ </div>
 
      `;
      }
